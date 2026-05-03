@@ -42,7 +42,7 @@ export default function Map() {
 
         {/* EQUIPPED */}
         <div style={{ marginTop: "15px" }}>
-          <h3>Equipped</h3>
+          <h3>Equipped ({hero.equipped.length}/5)</h3>
           {hero.equipped.map((move) => {
             const info = moveInfo[move];
             return (
